@@ -1,0 +1,256 @@
+/* --- STYLES FOR ALL PAGES --- */
+body {
+  /* Typography */
+  font-family: 'Lora', serif;
+  line-height: 1.4rem;
+
+  /* Visual */
+  background-image: url("../images/cloudy-day.png");
+}
+
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
+
+/* add space for fixed nav */
+main {
+  margin: 80px 0;
+}
+
+/* create styles for use for all white main boxes */
+.block {
+  background-color: #fff;
+
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.block-header {
+  /* Typography */
+  color: #4aaaa5;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+
+/* NAV START */
+#logo {
+
+  /* Typography */
+  font-family: 'Muli', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+
+  /* Visual */
+  background: #4aaaa5;
+  padding: 14px;
+}
+
+.nav-link {
+  font-family: 'Muli', sans-serif;
+
+}
+
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+
+.navbar {
+  background: white;
+  border: none;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+}
+/* END NAV */
+
+
+
+/* CONNECT W/ ME CSS */
+.connect-header {
+  /* Typography */
+  font-size: 25px;
+}
+
+.connect-photo {
+  /* Box-model */
+  width: 55px;
+  height: 55px;
+}
+
+#images {
+  /* Box-model */
+  padding-top: 15px;
+
+  /* Typography */
+  text-align: center;
+}
+/* END CONNECT W/ ME */
+
+
+/* BEGIN FOOTER */
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+
+  /* Visual */
+  background-color: #666;
+}
+
+.text-muted-footer {
+  /* Box-model */
+  margin-top: 15px;
+
+  /* Typography */
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+}
+
+.two-toned-footer-color {
+  /* Box-model */
+  height: 6px;
+  padding-top: 3px;
+
+  /* Visual */
+  background-color: #4aaaa5;
+}
+/* END FOOTER */
+/* --- END STYLES FOR ALL PAGES --- */
+
+/* --- PAGE-SPECIFIC STYLES --- */
+/* ABOUT-ME PAGE */
+.about-me-header {
+  /* Positioning */
+  margin-bottom: 33px;
+  font-family: 'Lora', serif;
+
+  /* Typography */
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+#about-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+/* END ABOUT-ME PAGE */
+
+
+/* PORTFOLIO PAGE */
+.port-image {
+  margin: 20px auto;
+}
+/* END PORTFOLIO PAGE */
+
+
+/* CONTACT FORM PAGE  */
+.form-control {
+  /* give input boxes right angles */
+  border-radius: 6px;
+
+  /* keep from horizontally resizing text area */
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.submit-btn {
+  /* Box-model */
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: lighter;
+
+  /* Typography */
+  color: #fff;
+
+  /* Visual */
+  background-color: #4aaaa5;
+  border: 0;
+  border-radius: 6px;
+}
+
+.submit-btn:hover {
+  opacity: .7;
+}
+
+/* END CONTACT FORM PAGE */
+
+
+/* Some edits */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.textOverlayContainer {
+  position: relative;
+  height: 17rem;
+  width: 20rem;
+}
+
+.portfolioImage {
+  height: 15rem;
+  width: 18rem;
+  object-position: center;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+.textOverlay {
+  position: absolute;
+  top: 60%;
+  width: 18rem;
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.form-group {
+    font-family: 'Lora', serif;
+}
+
+/* Hyperlinks */
+/* unvisited link */
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: grey;
+}
+
+
+
+

@@ -1,0 +1,428 @@
+
+
+/* BOOTSTRAP */
+
+#whiteHeader {
+    background-color: white;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+.headerBox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1.4rem 1rem;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    max-height: 80px;
+}
+
+#headerFont {
+    font-weight: normal;
+    margin: 0;
+    font-size: 34px;
+
+}
+
+.tabsBox {
+    padding-right: 2rem;
+    color: grey;
+    text-align: right;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+}
+
+
+
+/* THE CLEARFIX */
+.clearfix::after {
+    Content: “”;
+	Display: block;
+	Clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* background image - cloudz */
+#background {
+    background: url(../images/cloudy-day.png);
+    background-repeat: repeat;
+    width: 100%;
+}
+
+
+/* just the white header */
+#header {
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    /* margin: 0 0 2rem 0; */
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0 0 .13rem 0;
+}
+
+
+
+
+/* myName top left */
+.myNameContainer {
+    width: 50%;
+    float: left;
+    height: 4rem;
+}
+
+.myNameFont {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    padding: 0 1rem;
+    text-align: center;
+    width: 60%;
+    font-family: 'Georgia', Times, serif;
+}
+
+
+/* top right tabs */
+.tabsFont {
+    color: #e7e7e7;
+}
+
+.tabsPosition {
+    width: 50%;
+    float: left;
+    height: 3rem;
+    overflow: hidden;
+}
+
+/* tab list */
+ul {
+    /* reset */
+    list-style-type: none;
+    margin: 0;
+
+    text-align: right;
+    padding: 1rem 0;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 3rem;
+}
+
+ul li a {
+    /* resets hyperlink font */
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+ul li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+/* BODY */
+.mainContentBoxContainer {
+    height: auto;
+    
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: .1rem;
+}
+
+
+.titleFont {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;    
+}
+
+.mainContentBox {
+    
+    width: 94%;
+    padding: 2rem 0;
+    margin: auto;
+    height: auto;
+
+}
+
+/* general font formatting */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+hr {
+    border-style: solid;
+    border-width: .15rem 0 0 0;
+    border-color: #cccccc;
+}
+
+
+/* my picture */
+.aboutMeMyPicturePosition {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Portfolio images and text overlay */
+.portfolioFlexBox {
+    display: flex;
+    flex-direction: ltr;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.textOverlayContainer {
+    position: relative;
+    height: 17rem;
+    width: 20rem;
+}
+
+.portfolioImage {
+    height: 15rem;
+    width: 18rem;
+    object-position: center;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 60%;
+    width: 18rem;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+/* Contact form */
+.formText {
+    color: #777777;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width: 98%;
+}
+
+
+.formField {
+    width: 100%;
+    padding: .5rem;
+    margin: auto;
+}
+
+.formMessageBox {
+    width: 100%;
+    height: 10rem;
+    text-align: start;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: .5rem;
+}
+
+.formSubmitButton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+}
+
+  
+
+
+/* About Me paragraph text */
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+.floatLeft {
+    float: left;
+}
+
+
+
+
+
+/* FOOTER */
+#footerContainer {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #666666;
+    color: #e9e9e9;
+    width: 100%;
+    height: 4rem;
+    /* margin: 2rem 0 0 0; */
+
+    border-style: solid;
+    border-width: .5rem 0 0 0;
+    border-color: #4aaaa5;
+}
+
+/* footer text */
+.copyrightText {
+    text-align: center;
+    font-size: .8rem;
+    line-height: 4rem;
+}
+
+
+
+
+.marginHelper {
+    margin: auto;
+}
+
+.imageAdjust {
+    width: 30%;
+    padding: 0 1rem .2rem 0;
+}
+
+
+/* Media Queries */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+    .imageAdjust {
+        width: 30%;
+        padding: 0 1rem .2rem 0;
+    }
+   
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #headerFont {
+        font-size: 28px;
+    }
+
+    .headerBox {
+        padding: 1.6rem 1rem;
+    }
+    
+    .imageAdjust {
+        width: 30%;
+        padding: 0 1rem .2rem 0;
+    }
+
+    
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #headerFont {
+        font-size: 34px;
+
+    }
+
+    .headerBox {
+        padding: 1.4rem 1rem;
+    }
+    
+    .imageAdjust {
+        width: 100%;
+        padding: 0 0 1rem 0;
+    }
+
+    #footerContainer {
+        height: 6rem;
+    }
+
+    .copyrightText {
+        line-height: 6rem;
+    }
+
+    .tabsBox {
+        text-align: center;
+    }
+
+   
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+   
+    
+    .imageAdjust {
+        width: 100%;
+        padding: 0 0 1rem 0;
+    }
+
+    #footerContainer {
+        height: 6rem;
+    }
+
+    .copyrightText {
+        line-height: 6rem;
+    }
+
+    .tabsBox {
+        text-align: center;
+    }
+
+    
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .imageAdjust {
+        width: 100%;
+        padding: 0 0 1rem 0;
+    }
+
+    #footerContainer {
+        height: 6rem;
+    }
+
+    .copyrightText {
+        line-height: 6rem;
+    }
+
+    .tabsBox {
+        text-align: center;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
